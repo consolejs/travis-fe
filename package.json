@@ -6,9 +6,6 @@
   "scripts": {
     "test": "jest"
   },
-  "jest": {
-    "testRegex": "*.test.js?$"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/consolejs/travis-fe.git"
