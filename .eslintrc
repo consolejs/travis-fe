@@ -1,0 +1,27 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "jquery": true,
+      "node": true,
+      "amd": true,
+      "es6": true,
+      "commonjs": true
+    },
+    "extends": ["eslint:recommended"],
+    "globals": {
+      "ActiveXObject": "readonly"
+    },
+    "rules": {
+      "no-empty": [
+        "error",
+        {
+          "allowEmptyCatch": true
+        }
+      ],
+      "no-console": "off",
+      "no-func-assign": "off",
+      "no-useless-escape": "off"
+    }
+  }
+  

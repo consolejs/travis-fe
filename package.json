@@ -1,0 +1,26 @@
+{
+  "name": "travis-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testRegex": "/test/.*.test.jsx?$"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/consolejs/travis-fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/consolejs/travis-fe/issues"
+  },
+  "homepage": "https://github.com/consolejs/travis-fe#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "jest": "^24.9.0"
+  }
+}
