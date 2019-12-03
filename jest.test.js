@@ -20,8 +20,8 @@ test('断言', () => {
   expect(value).toBeLessThan(5); //小于5
   expect(value).toBeLessThanOrEqual(4.5); //小于等于4.5
   expect(value).toBeCloseTo(3.5); // 浮点数判断相等
-  const v2 = 0.2 + 0.2;
-  expect(v2).toBeCloseTo(0.3); // 浮点数判断相等
+  const v2 = 0.2 + 0.3;
+  expect(v2).toBeCloseTo(0.5); // 浮点数判断相等
   expect('Christoph').toMatch(/stop/); //正则表达式判断
   expect(['one', 'two']).toContain('one'); //不解释
 });
