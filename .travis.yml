@@ -5,3 +5,5 @@ install:
     - npm install
 script:
     - npm run test
+    - goveralls -coverprofile=overalls.coverprofile -service=travis-ci -repotoken 65G5KJpun62aBO84N0lSusYTBziIOXf3R
+ 
