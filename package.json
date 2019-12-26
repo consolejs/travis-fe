@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "std": "standard --verbose | snazzy",
     "test": "jest --coverage"
   },
   "repository": {
@@ -16,12 +17,18 @@
     "url": "https://github.com/consolejs/travis-fe/issues"
   },
   "homepage": "https://github.com/consolejs/travis-fe#readme",
+  "standard": {
+    "ignore": [
+      "*.test.js"
+    ]
+  },
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "coveralls": "^3.0.9",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "standard": "^14.3.1"
   }
 }
